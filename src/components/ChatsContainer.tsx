@@ -22,7 +22,7 @@ const ChatsContainer: React.FC = () => {
     {
       image: "https://source.unsplash.com/IlPwZyz-Pl0",
       time: "05:26 PM",
-      snippet: "hahaha aku ketawa ",
+      snippet: "hahaha aku ketawa 🤣🤣",
       name: "Tania SMA7",
     },
     {
@@ -54,8 +54,15 @@ const ChatsContainer: React.FC = () => {
       time: "08:45 AM",
       snippet: "Oke, ntar siang ya....",
       name: "Intan Permata",
-    }
-  ];
+    },
+    {
+      image: "https://source.unsplash.com/dZ6SQ0d-IVc",
+      time: "Yesterday",
+      snippet: "Baik, Kami akan proses....",
+      name: "+628112112121",
+    },
+  ]; 
+
   return (
     <React.Fragment>
       {dataListChat &&
